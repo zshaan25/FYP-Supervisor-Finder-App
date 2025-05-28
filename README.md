@@ -1,12 +1,70 @@
-# React + Vite
+# 🎓 FYP Supervisor Finder Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and Firebase-integrated web application built with **ReactJS** and **TailwindCSS** that allows university students to easily **explore**, **connect with**, and **request Final Year Project (FYP) supervisors**. Designed for academic institutions to streamline the FYP pairing process.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔑 Admin Credentials
 
-## Expanding the ESLint configuration
+```bash
+Email: admin@fypfinder.com
+Password: admin123
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎓 Student Panel
+✅ Browse Supervisors: View a curated list of supervisors with their expertise and availability.
+
+📨 Send Requests: Students can request supervision if slots are available.
+
+❌ Cancel Requests: Students can remove their requests from already enrolled supervisors.
+
+📋 View Enrolled Supervisors: Displays a list of supervisors the student has connected with.
+
+🚫 Slot Limit Handling: If a supervisor's slots are full, further requests are disabled.
+
+🛡️ Admin Panel
+🧾 Add/Edit/Delete Supervisors: Full CRUD operations for supervisor profiles.
+
+📊 Slot Monitoring: Control how many students a supervisor can manage.
+
+🔁 Real-time Requests: Monitor student enrollment activity as it happens.
+
+🔒 Protected Routes: Admin pages are protected via Firebase Authentication.
+
+🔗 Firebase Integration
+🔐 Firebase Auth (Email & Password-based)
+
+🔥 Firestore Database for storing supervisors, students, and requests
+
+🚀 Firebase Hosting for live deployment
+
+📡 Real-time Sync between frontend and database
+
+⚙️ Tech Stack
+Tech	        Role
+ReactJS	      Frontend Framework
+TailwindCSS	  Styling
+Firebase	    Backend & Auth
+Firestore    	Realtime DB
+Vite/Cra	    Build Tool
+
+💡 Future Improvements
+Supervisor-student chat integration
+
+Admin analytics dashboard
+
+Email notifications on request/approval
+
+Supervisor ratings & reviews
+
+⚠️ Disclaimers
+This is an academic project.
+
+Admin credentials are for demonstration only — do not use in production without securing sensitive routes and data.
+
+Firebase usage may incur costs if usage exceeds free-tier limits.
+
+🧑‍💻 Developed By
+Zeeshan (@zshaan25)
+
+Built as part of the Final Year Project coursework for academic demonstration.
+
